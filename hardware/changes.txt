@@ -1,0 +1,30 @@
+Schematics:
+
+V2
+Rename Spannungsversorgung to Power
+VDDUSB (STM32L4, PIN 48) from VBUS to 3V3
+PWB2010-1 Footprint change
+SSD1306 Footprint change
+Remove H3 (mounting hole)
+
+Layout:
+
+V2
+LOGO6 (Spike) rotate 180°
+STM32 PIN 48 to 3V3 (erase old connection)
+few dukos change from 1V8 to GND (they shouldve been GND)
+all planes connection from solid to thermal (problems with soldering some tht)
+PWB2010-1 new Footprint new 3D new conns
+SSD13306 new Footprint new 3D new conns
+Remove H3 (mounting hole 3)
+
+
+
+
+
+
+
+
+
+
+
