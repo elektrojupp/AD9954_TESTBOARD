@@ -12,7 +12,7 @@ All interfaces are accessible via software:
 AD9954 can run in single tone mode,
 USB runs as loopserver, CAN interface initiates (no further testing).
 GUI menue structure is a bit blown up but flexible. 
-STM32L4 runs FREERTOS RTO. Every Interface has its own task. 
+STM32L4 runs FREERTOS RTO. Every interface has its own task. 
 Communication over queues and semaphores, between different tasks,
 so its possible to implement communication over USB/CAN to AD9954.
 When a button is pressed during RESET, a snake game appears. 
