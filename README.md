@@ -3,7 +3,7 @@ Testboard for AD9954 controlled by a STM32L4. Available interfaces: SWD, CAN, US
 
 # Hardware
 Hardware folder contains PCB in as Kicad project.
-All used components in own libary, so it should be possible to open without problems.
+All used components/footprints/3D models in project specific libary, so it should be possible to open without problems.
 
 # Software
 Software folder contains a STM32CubeIDE project. 
